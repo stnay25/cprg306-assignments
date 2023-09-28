@@ -1,9 +1,8 @@
-let list
 
 export default function Item({ name, quantity, category }) {
     return (
-        <div style={{ padding: "1rem", backgroundColor: "red", border:"1px solid red", margin:"0.2rem 0"}}>
-            <p>{name}</p>
+        <div class="p-8 bg-purple-300 border-4 border-black m-4 w-1/4 ">
+            <p className="text-lg font-bold">{name}</p>
             <p>Buy {quantity} in {category}</p>
         </div>
     )
