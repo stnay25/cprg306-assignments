@@ -31,7 +31,7 @@ export default function ItemList() {
 
     return (
         <div >
-            <div className="mb-4 px-4 py-4 bg-black w-1/3 m-4 border-4 border-white ">
+            <div className="mb-4 px-4 py-4 bg-black w-1/3 m-4 rounded">
             <span className="font-bold text-white ">Sort By: </span>
             <button 
                 onClick={() => setSortBy('name')} 
