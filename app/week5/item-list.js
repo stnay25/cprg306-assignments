@@ -15,7 +15,7 @@ export default function ItemList() {
             return 0;
         }
     });
-
+    
     const GroupSortItems = (items) => {
         const groupedItems = items.reduce((acc, item) => {
             (acc[item.category] = acc[item.category] || []).push(item);

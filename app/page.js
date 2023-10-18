@@ -22,6 +22,10 @@ export default function Home() {
     <button className=" font-bold px-14 py-2 text-white bg-black border-2 border-white m-2 rounded hover:bg-purple-700 active:bg-blue-700 text-white">
     <Link href="week5">Week 5</Link>
     </button>
+    <br></br>
+    <button className=" font-bold px-14 py-2 text-white bg-black border-2 border-white m-2 rounded hover:bg-purple-700 active:bg-blue-700 text-white">
+    <Link href="week6">Week 6</Link>
+    </button>
    </main>
   )
   
