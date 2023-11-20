@@ -28,13 +28,20 @@ export default function Home() {
     </button>
     <br></br>
     <button className=" font-bold px-14 py-2 text-white bg-black border-2 border-white m-2 rounded hover:bg-purple-700 active:bg-blue-700 text-white">
-    <Link href="week7">week 7</Link>
+    <Link href="week7">Week 7</Link>
     </button>
     <br></br>
     <button className=" font-bold px-14 py-2 text-white bg-black border-2 border-white m-2 rounded hover:bg-purple-700 active:bg-blue-700 text-white">
-    <Link href="week8">week 8</Link>
+    <Link href="week8">Week 8</Link>
+    </button>
+    <br></br>
+    <button className=" font-bold px-14 py-2 text-white bg-black border-2 border-white m-2 rounded hover:bg-white active:bg-blue-700 text-white">
+    <p>Week 9</p>
+    </button>
+    <br></br>
+    <button className=" font-bold px-14 py-2 text-white bg-black border-2 border-white m-2 rounded hover:bg-purple-700 active:bg-blue-700 text-white">
+    <Link href="week10">Week 10</Link>
     </button>
    </main>
   )
-  
 }
